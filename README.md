@@ -1,13 +1,28 @@
 # Project Description
 
 This project demonstrate an animating deck of cards with a swipe/scroll up animation built using tailwindCSS and FramerMotion.
-Project is built using React + Vite
+Project is built using React + Vite 
+<br>
+<br>
+<b>Tech Stack Used:</b>
+<ul>
+  <li>React JS</li>
+  <li>Tailwind CSS</li>
+  <li>Framer Motion</li>
+</ul>
+
 
 # Setup Instruction
 
 1-- Clone the Git repository using <code> git clone git-repo-link </code> <br>
 2-- Run <code>npm install</code> to install node modules <br>
 3-- Run the server using <code> npm run dev </code> <br>
+
+# Component Structure
+
+<code>./components</code> folder contains two major component such as Stacked Card Deck and Individual Card Components <br>
+ <code> ./assets</code> folder is present in order to use any assets. <br>
+  This was a single page so there aint any <code>./pages</code> sub directory as of now. <br>
 
 
 # React + Vite
