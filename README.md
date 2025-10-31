@@ -1,3 +1,15 @@
+# Project Description
+
+This project demonstrate an animating deck of cards with a swipe/scroll up animation built using tailwindCSS and FramerMotion.
+Project is built using React + Vite
+
+# Setup Instruction
+
+1-- Clone the Git repository using <code> git clone git-repo-link </code> <br>
+2-- Run <code>npm install</code> to install node modules <br>
+3-- Run the server using <code> npm run dev </code> <br>
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
