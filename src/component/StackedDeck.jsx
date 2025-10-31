@@ -11,14 +11,12 @@ import Cards from "./Cards";
 const COUNT = 3;
 const NUMBERS = [1, 2, 3];
 const STACK_GAP = 16;
-const FRAME_TOP_VH = 10; // slightly tighter pin
-const FRAME_H_VH = 60; // was 76
-const EXIT_DISTANCE = -80; // was -120 (shorter exit so less scroll needed)
+const FRAME_TOP_VH = 10;
+const FRAME_H_VH = 60;
+const EXIT_DISTANCE = -80;
 
-// Give each card a modest amount of scroll space beyond the sticky frame.
-// This keeps the whole section compact while still letting every card fully animate.
 const PER_CARD_SCROLL_VH = 40;
-// Total section height = sticky frame + a little top padding + per-card scroll budget
+
 const SECTION_H_VH =
   FRAME_TOP_VH +
   FRAME_H_VH +
